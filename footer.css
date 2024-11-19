@@ -1,0 +1,61 @@
+.footer {
+    margin-top: 100px;
+    border: 2px solid var(--gayBlue);
+    box-shadow: 0 4px 5px 0 var(--gayBlue);
+    padding: 50px 0;
+}
+
+.footer-list {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.footer-list li ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-accent {
+    color: var(--blue);
+}
+
+.social {
+    display: flex;
+    gap: 50px;
+}
+
+.social-links {
+    padding-top: 28px;
+    position: relative;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--black);
+}
+
+.social-links:first-child:before {
+    content: url(assets/images/whatsapp.svg);
+    position: absolute;
+    top: 4px;
+    left: 20px;
+}
+
+.social-links:nth-child(2):before {
+    content: url(assets/images/telegram.svg);
+    position: absolute;
+    top: 5px;
+    left: 14px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: var(--devil);
+    margin: 30px 0;
+}
