@@ -1,0 +1,297 @@
+.main {
+    margin-top: 30px;
+}
+
+.main .container {
+    background-image: url("assets/images/main-1.png");
+    padding: 224px 0 100px 0px;
+    position: relative;
+}
+
+.main-circle {
+    position: absolute;
+    top: 22px;
+    left: -142px;
+    z-index: 1;
+}
+
+.main .title {
+    font-size: 36px;
+    color: var(--blue);
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    line-height: 1.2;
+    padding-left: 50px;
+    z-index: 2;
+    position: relative;
+}
+
+.main .desc {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+    color: var(--devil);
+    padding-left: 50px;
+    max-width: 551px;
+    z-index: 2;
+    position: relative;
+}
+
+.main .link {
+    background-color: var(--orange);
+    margin-top: 30px;
+    margin-left: 50px;
+    z-index: 2;
+    position: relative;
+}
+
+/**/
+
+.work {
+    margin-top: 30px;
+}
+
+.work-list {
+    margin-top: 30px;
+    display: flex;
+    gap: 35px;
+}
+
+.work-list li {
+    border-radius: 15px;
+    background: var(--white);
+    position: relative;
+    padding: 50px 0;
+    max-width: 390px;
+    width: 100%;
+}
+
+.work-list li .subtitle {
+    text-align: center;
+}
+
+.work-list li .desc {
+    font-weight: 300;
+    font-family: "Futura PT", sans-serif;
+    margin-top: 30px;
+    line-height: 1.42857;
+    padding: 0 66px 0 66px;
+    text-align: center;
+}
+
+.work-circle {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background: var(--dirtyWhite);
+    top: -3px;
+    left: -13px;
+}
+
+.work-circle div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: var(--white);
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: "Futura PT", sans-serif;
+    color: var(--blue);
+}
+
+/**/
+
+.catalog {
+    margin-top: 50px;
+}
+
+.catalog-filter {
+    display: flex;
+    gap: 10px;
+}
+
+.catalog-filter li {
+    border: 1px solid var(--gayBlue);
+    border-radius: 20px;
+    background: var(--white);
+    padding: 23px 0 22px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.37143;
+    width: 133.5px;
+    text-align: center;
+}
+
+.catalog-filter li:nth-child(4) {
+    width: 206px;
+}
+
+.catalog-filter li:nth-child(6) {
+    width: 140px;
+}
+
+.catalog-filter li:nth-child(7) {
+    width: 156px;
+}
+
+.active-filter {
+    background: var(--gayBlue) !important;
+    color: var(--blue);
+}
+
+.catalog-items {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-items li {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 1px 10px 0 var(--gayBlue);
+    background: var(--white);
+    padding: 25px 20px 24px 20px;
+}
+
+.catalog-item {
+    padding: 0 5px;
+}
+
+.catalog-item__price {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 1.33333;
+    margin-top: 39px;
+    color: var(--orange);
+}
+
+.catalog-item__name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-top: 25px;
+}
+
+.catalog-item__rating {
+    display: inline-block;
+    padding-left: 8px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 1.21905;
+    font-family: "Futura PT Book", sans-serif;
+    color: var(--orange);
+}
+
+.catalog-item__review {
+    font-weight: 400;
+    font-size: 11px;
+    font-family: "Futura PT Book", sans-serif;
+    line-height: 1.28;
+    color: var(--devil);
+    padding-left: 5px;
+}
+
+.catalog-item__star {
+    margin-top: 14px;
+}
+
+.catalog-item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 10px;
+}
+
+.catalog-item-desc {
+    display: flex;
+   justify-content: space-between;
+}
+
+.catalog-item-desc span:first-child {
+    font-weight: 400;
+    font-size: 11px;
+    font-family: "Futura PT Book", sans-serif;
+    line-height: 1.23871;
+    color: var(--devil);
+}
+
+.catalog-item-desc span:nth-child(2) {
+    font-weight: 400;
+    font-family: "Futura PT Book", sans-serif;
+    font-size: 12px;
+    line-height: 1.2;
+    color: var(--orange);
+}
+
+.catalog-item__link {
+    margin-top: 30px;
+    width: 100%;
+    padding: 12px 0;
+}
+
+/**/
+
+.choice {
+    margin-top: 50px;
+    padding: 30px 0;
+    background-color: var(--white);
+}
+
+.choice-filter {
+    display: flex;
+    gap: 10px;
+}
+
+.choice-filter li {
+    border: 1px solid var(--gayBlue);
+    border-radius: 20px;
+    background: var(--white);
+    padding: 23px 0 22px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.37143;
+    width: 145px;
+    text-align: center;
+}
+
+.choice-filter li:nth-child(7) {
+    width: 152px;
+}
+
+/**/
+
+.reviews {
+    margin-top: 50px;
+}
+
+/**/
+
+.form .container {
+    margin-top: 50px;
+}
+
+/**/
+
+.partners {
+    margin-top: 40px;
+    padding: 35px 0 25px;
+    background-color: var(--white);
+}
+
+.partners-list {
+    margin-top: 30px;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    overflow: hidden;
+}

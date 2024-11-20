@@ -46,6 +46,8 @@
     background: var(--white);
     position: relative;
     padding: 40px 0;
+    max-width: 390px;
+    width: 100%;
 }
 
 .why-list li .subtitle {
@@ -58,17 +60,14 @@
 }
 
 .why-list li:first-child .desc {
-    width: 253px;
     padding: 0 68px 0 69px;
 }
 
 .why-list li:nth-child(2) .desc {
-    width: 284px;
     padding: 0 53px 0 53px;
 }
 
 .why-list li:nth-child(3) .desc {
-    width: 295px;
     padding: 0 47px 0 48px;
 }
 
@@ -157,75 +156,6 @@
 
 /**/
 
-.reviews {
-    margin-top: 100px;
-}
-
-.reviews-list {
-    margin-top: 30px;
-    display: flex;
-    gap: 20px;
-}
-
-.reviews-list li {
-    max-width: 390px;
-    width: 100%;
-    padding: 30px 21px 33px 32px;
-    box-shadow: 0 1px 10px 0 var(--gayBlue);
-    background: var(--white);
-    border-radius: 15px;
-}
-
-.reviews-list__name {
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 1.2;
-    color: var(--blue);
-}
-
-.reviews-list__circle {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: var(--dirtyWhite);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.reviews-list__profile {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.reviews-list__desc {
-    font-weight: 300;
-    margin-top: 23px;
-    max-width: 337px;
-}
-
-.reviews-list__date {
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 1;
-}
-
-.reviews-list__stars {
-    display: flex;
-    gap: 5px;
-}
-
-.reviews-list__rating {
-    margin-top: 5px;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
-.reviews-link {
-    margin: 30px auto 0;
-}
 
 /**/
 
