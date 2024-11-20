@@ -1,0 +1,60 @@
+.form .container {
+    margin-top: 100px;
+    border: 1px solid var(--gayBlue);
+    border-radius: 15px;
+    box-shadow: 0 10px 10px 0 var(--gayBlue);
+    background: var(--white);
+    padding: 23px 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: var(--white);
+    box-shadow: 0 1px 10px 0 var(--gayBlue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-like {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.form-like__text {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    max-width: 183px;
+}
+
+.form-like__bid {
+    font-weight: 900;
+    text-align: center;
+    font-size: 24px;
+    line-height: 0.8;
+    color: var(--blue);
+}
+
+.form-like__desc {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1;
+    max-width: 161px;
+}
+
+.form-bid {
+    display: flex;
+    gap: 50px;
+}
+
+.form-input {
+    display: flex;
+    gap: 10px;
+}

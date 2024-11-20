@@ -1,13 +1,20 @@
-.about {
+.main {
     margin-top: 50px;
 }
 
-.about-wrapper {
+.main-wrapper {
     display: flex;
     gap: 30px;
 }
 
-.about-block {
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 8px;
+}
+
+.main-block {
     padding: 40px 0 40px 40px;
     border: 1px solid var(--gayBlue);
     border-radius: 15px;
@@ -18,275 +25,92 @@
     gap: 20px;
 }
 
-.about-text {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin-top: 8px;
-}
-
-.about-title {
+.main-block .title {
     margin-bottom: 10px;
 }
 
-/**/
-
-.why {
+.term {
     margin-top: 100px;
 }
 
-.why-list {
-    margin-top: 30px;
-    display: flex;
-    gap: 35px;
+.main-subtitle {
+    text-align: center;
+    line-height: 0.66667;
 }
 
-.why-list li {
-    border-radius: 15px;
-    background: var(--white);
+.term-lists {
+    display: flex;
+    margin: 50px auto 0;
+    gap: 200px;
+    line-height: 1;
+    justify-content: center;
+}
+
+.term-lists li {
+    padding-left: 20px;
     position: relative;
-    padding: 40px 0;
 }
 
-.why-list li .subtitle {
-    text-align: center;
-}
-
-.why-list li .desc {
-    margin-top: 30px;
-    text-align: center;
-}
-
-.why-list li:first-child .desc {
-    width: 253px;
-    padding: 0 68px 0 69px;
-}
-
-.why-list li:nth-child(2) .desc {
-    width: 284px;
-    padding: 0 53px 0 53px;
-}
-
-.why-list li:nth-child(3) .desc {
-    width: 295px;
-    padding: 0 47px 0 48px;
-}
-
-.why-circle {
+.term-lists li::before {
+    content: "";
     position: absolute;
-    width: 70px;
-    height: 70px;
-    border-radius: 100%;
-    background: var(--dirtyWhite);
-    top: -3px;
-    left: -13px;
-}
-
-.why-circle div {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    background: var(--white);
+    left: 7px;
+    top: 6px;
+    width: 5px;
+    height: 5px;
+    background: var(--black);
     border-radius: 50%;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.2;
-    color: var(--blue);
 }
 
-/**/
-
-.specialists {
+.attention {
     margin-top: 100px;
+    padding: 40px;
+    border: 1px solid var(--gayBlue);
+    border-radius: 15px;
+    box-shadow: 0 1px 10px 0 var(--gayBlue);
+    background: var(--white);
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    font-family: "Futura PT Book",sans-serif;
+}
+
+.attention span {
+    color: var(--orange);
+}
+
+.conditions {
+    margin-top: 100px;
+    border: 1px solid var(--gayBlue);
+    border-radius: 15px;
+    box-shadow: 0 1px 10px 0 var(--gayBlue);
+    background: var(--white);
     padding: 50px 0;
-    background-color: var(--white);
-    box-shadow: 0 1px 10px 0 var(--gayBlue);
 }
 
-.specialists-wrapper {
+.conditions-wrapper {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 
-.specialists-content {
-    max-width: 500px;
+.conditions .title {
+    line-height: 0.66667;
 }
 
-.specialists-text {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.conditions-content {
+    max-width: 542px;
+}
+
+.conditions-desc {
     margin-top: 50px;
 }
 
-/**/
-
-.certificates {
-    margin-top: 100px;
+.conditions-content .desc span {
+    color: var(--orange);
 }
 
-.certificates-list {
-    margin-top: 50px;
-    display: flex;
-    gap: 20px;
-}
-
-.certificates-list li {
-    max-width: 400px;
-    width: 100%;
-    background: var(--white);
-    border: 1px solid var(--gayBlue);
-    border-radius: 15px;
-    box-shadow: 0 1px 10px 0 var(--gayBlue);
-    padding: 25px 36px 24px;
-    display: flex;
-    gap: 50px;
-}
-
-.certificates-list li img {
-    width: 139px;
-    height: 150px;
-    background: #c4c4c4;
-}
-
-/**/
-
-.reviews {
-    margin-top: 100px;
-}
-
-.reviews-list {
+.conditions-list {
     margin-top: 30px;
-    display: flex;
-    gap: 20px;
 }
-
-.reviews-list li {
-    max-width: 390px;
-    width: 100%;
-    padding: 30px 21px 33px 32px;
-    box-shadow: 0 1px 10px 0 var(--gayBlue);
-    background: var(--white);
-    border-radius: 15px;
-}
-
-.reviews-list__name {
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 1.2;
-    color: var(--blue);
-}
-
-.reviews-list__circle {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: var(--dirtyWhite);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.reviews-list__profile {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.reviews-list__desc {
-    font-weight: 300;
-    margin-top: 23px;
-    max-width: 337px;
-}
-
-.reviews-list__date {
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 1;
-}
-
-.reviews-list__stars {
-    display: flex;
-    gap: 5px;
-}
-
-.reviews-list__rating {
-    margin-top: 5px;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
-.reviews-link {
-    margin: 30px auto 0;
-}
-
-/**/
-
-.form .container {
-    margin-top: 100px;
-    border: 1px solid var(--gayBlue);
-    border-radius: 15px;
-    box-shadow: 0 10px 10px 0 var(--gayBlue);
-    background: var(--white);
-    padding: 23px 88px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.form-circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: var(--white);
-    box-shadow: 0 1px 10px 0 var(--gayBlue);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.form-like {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.form-like__text {
-    display: flex;
-    flex-direction: column;
-    gap: 19px;
-    max-width: 183px;
-}
-
-.form-like__bid {
-    font-weight: 900;
-    text-align: center;
-    font-size: 24px;
-    line-height: 0.8;
-    color: var(--blue);
-}
-
-.form-like__desc {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 1;
-    max-width: 161px;
-}
-
-.form-bid {
-    display: flex;
-    gap: 50px;
-}
-
-.form-input {
-    display: flex;
-    gap: 10px;
-}
-
