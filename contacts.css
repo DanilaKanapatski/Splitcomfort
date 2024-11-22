@@ -1,0 +1,110 @@
+.contacts {
+    margin-top: 50px;
+}
+
+.contacts-wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.contacts-block {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid var(--gayBlue);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 1px 10px 0 var(--gayBlue);
+    background: var(--white);
+}
+
+.contacts-desc {
+    line-height: 1;
+    color: var(--blue);
+}
+
+.contacts-time {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    position: relative;
+    padding-left: 25px;
+}
+
+.contacts-time:before {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    width: 5px;
+    height: 5px;
+    background: var(--black);
+    border-radius: 50%;
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.contacts-list li {
+    position: relative;
+    padding-left: 25px;
+}
+
+.contacts-list li a {
+    color: var(--blue);
+}
+
+.contacts-list li::before {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    width: 5px;
+    height: 5px;
+    background: var(--blue);
+    border-radius: 50%;
+}
+
+.contacts-mail {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    position: relative;
+    padding-left: 25px;
+}
+
+.contacts-mail::before {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    width: 5px;
+    height: 5px;
+    background: var(--blue);
+    border-radius: 50%;
+}
+
+.contacts-mail a {
+    color: var(--blue);
+}
+
+.contacts-subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    padding-left: 25px;
+}
+
+.contacts-list:nth-child(2) {
+    color: var(--blue);
+}
+
+
+

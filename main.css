@@ -286,12 +286,29 @@
     margin-top: 40px;
     padding: 35px 0 25px;
     background-color: var(--white);
+    overflow: hidden;
+
 }
 
 .partners-list {
     margin-top: 30px;
     display: flex;
     gap: 35px;
+    position: relative;
+    width: max-content;
+    animation: moveLeft 10s linear infinite;
     align-items: center;
-    overflow: hidden;
+}
+
+.partners-list li {
+    flex-shrink: 0;
+}
+
+@keyframes moveLeft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
