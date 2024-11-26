@@ -1,0 +1,401 @@
+.installation {
+    margin-top: 50px;
+}
+
+.installation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.installation-content {
+    display: flex;
+    gap: 46px;
+    flex-direction: column;
+}
+
+.installation-wrapper img {
+    width: 570px;
+}
+
+.installation-block {
+    border: 1px solid var(--gayBlue);
+    border-radius: 15px;
+    padding: 40px 64px 40px 40px;
+    box-shadow: 0 1px 10px 0 var(--gayBlue);
+    background: var(--white);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    font-family: "Futura PT Book", sans-serif;
+    max-width: 640px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.installation-text {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.installation-block__subtitle {
+    font-weight: 900;
+    color: var(--blue);
+    line-height: 1;
+    font-size: 14px;
+}
+
+.installation-block__list li {
+    padding-left: 25px;
+    position: relative;
+}
+
+.installation-block__list li:before {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    width: 5px;
+    height: 5px;
+    background: var(--black);
+    border-radius: 50%;
+}
+
+/**/
+
+.steps {
+    margin-top: 50px;
+    padding: 50px 0;
+    background: var(--white);
+    box-shadow: 0 1px 10px 0 var(--gayBlue);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    font-family: "Futura PT Book", sans-serif;
+}
+
+.steps-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.steps-subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    font-family: "Futura PT", sans-serif;
+    margin-bottom: 20px;
+    padding-left: 6px;
+}
+
+.steps .title {
+    margin-bottom: 53px;
+}
+
+.steps-list li {
+    position: relative;
+    padding-left: 21px;
+    max-width: 505px;
+}
+
+.steps-list li:before {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    width: 5px;
+    height: 5px;
+    background: var(--black);
+    border-radius: 50%;
+}
+
+.steps-cost {
+    margin-top: 14px;
+    color: var(--blue);
+    margin-bottom: 30px;
+    padding-left: 25px;
+}
+
+.steps-installation {
+    margin-bottom: 14px;
+    max-width: 505px;
+}
+
+.stages {
+    margin-top: 38px;
+}
+
+.stages h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    font-family: "Futura PT", sans-serif;
+}
+
+.stages-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 53px;
+}
+
+.stages-list li:first-child {
+    max-width: 450px;
+}
+
+.stages-list li:nth-child(2) {
+    max-width: 535px;
+}
+
+.stages-list span{
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.stages-list p {
+    margin-top: 14px;
+}
+
+/**/
+
+.additional {
+    box-shadow: 0 1px 10px 0 var(--gayBlue);
+    background: var(--white);
+    padding: 50px 0;
+}
+
+.additional-desc {
+    margin-top: 30px;
+    font-family: "Futura PT Book", sans-serif;
+}
+
+.additional-list {
+    margin-top: 30px;
+}
+
+.additional-list li {
+    position: relative;
+    padding-left: 25px;
+    color: var(--devil);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.additional-list li:before {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    width: 5px;
+    height: 5px;
+    background: var(--devil);
+    border-radius: 50%;
+}
+
+/**/
+
+.replace {
+    margin-top: 50px;
+}
+
+.replace-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.replace-block {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    font-family: "Futura PT Book", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.replace-block .title {
+    margin-top: 33px;
+}
+
+.replace-desc {
+    max-width: 500px;
+}
+
+.replace-subtitle {
+    padding-left: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    color: var(--blue);
+    font-family: "Futura PT", sans-serif;
+}
+
+.replace-list {
+    max-width: 603px;
+}
+
+.replace-list li {
+    padding-left: 8px;
+}
+
+.second-list {
+    max-width: 587px;
+}
+
+
+.second-list li {
+    position: relative;
+    padding-left: 25px;
+}
+
+.second-list li:before {
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 4px;
+    width: 5px;
+    height: 5px;
+    background: var(--black);
+    border-radius: 50%;
+}
+
+.replace-secondBlock {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    font-family: "Futura PT Book", sans-serif;
+}
+
+.third-list {
+    margin-top: 30px;
+
+}
+
+.third-list li {
+    position: relative;
+    padding-left: 25px;
+}
+
+.third-list li:before {
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 4px;
+    width: 5px;
+    height: 5px;
+    background: var(--black);
+    border-radius: 50%;
+}
+
+.replace-dopText {
+    color: var(--blue);
+    padding-left: 25px;
+    margin-top: 14px;
+}
+
+/**/
+
+.prepare {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    font-family: "Futura PT Book", sans-serif;
+}
+
+.prepare .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/**/
+
+.tables {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.tables-wrapper {
+    display: flex;
+    gap: 50px;
+}
+
+.tables-right {
+    max-width: 565px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+}
+
+.tables-title {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.tables-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    font-family: "Futura PT Book", sans-serif;
+    margin-top: 14px;
+}
+
+.table-cost {
+    max-width: 625px;
+    box-shadow: 0 1px 10px 0 var(--gayBlue);
+    margin-top: 50px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid var(--devil);
+}
+
+.table-cost td {
+    width: 33%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    color: var(--devil);
+    padding: 14px 0 14px 12px;
+    border-right: 1px solid var(--devil);
+    border-bottom: 1px solid var(--devil);
+}
+
+.table-cost tr:last-child td {
+    border-bottom: none;
+}
+
+.table-cost td:last-child {
+    border-right: none;
+}
+
+.table-cost .long-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: var(--devil);
+    font-family: "Futura PT Book", sans-serif;
+}
+
+.right {
+    width: 100%;
+}
+
+.right td {
+    padding: 10px 0 10px 12px;
+}
+
+.right:nth-child(3) {
+    margin-top: 19px;
+}
