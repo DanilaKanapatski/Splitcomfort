@@ -106,5 +106,87 @@
     color: var(--blue);
 }
 
+@media screen and (max-width: 1440px) {
+    .contacts {
+        margin-top: 30px;
+    }
+
+    .contacts-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .contacts-wrapper img {
+        width: 100%;
+    }
+
+    .contacts-block {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .contacts-desc {
+        max-width: 529px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .contacts {
+        margin-top: 20px;
+    }
+
+    .contacts-wrapper {
+        gap: 20px;
+    }
+
+    .contacts-block {
+        gap: 20px;
+        padding: 20px 18px 20px 20px;
+    }
+
+    .contacts-time {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1;
+        font-family: "Futura PT Book", sans-serif;
+        padding-left: 20px;
+        max-width: 253px;
+    }
+
+    .contacts-list {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1;
+        font-family: "Futura PT Book", sans-serif;
+    }
+
+    .contacts-list li {
+        padding-left: 20px;
+    }
+
+    .contacts-list li::before {
+        left: 7px;
+        top: 4px;
+    }
+
+    .contacts-mail {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1;
+        padding-left: 20px;
+        font-family: "Futura PT Book", sans-serif;
+    }
+
+    .contacts-mail::before {
+        left: 7px;
+        top: 4px;
+    }
+
+    .contacts-subtitle {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1;
+        padding-left: 20px;
+    }
+}
 
 

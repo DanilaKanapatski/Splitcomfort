@@ -46,7 +46,8 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 1;
-    max-width: 161px;
+    max-width: 158px;
+    font-family: "Futura PT", sans-serif;
 }
 
 .form-bid {
@@ -57,4 +58,117 @@
 .form-input {
     display: flex;
     gap: 10px;
+}
+
+.form-bid .mob {
+    display: none;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .form .desk {
+        display: none;
+    }
+
+    .form-bid .mob {
+        display: flex;
+    }
+
+    .form .container {
+        margin-top: 50px;
+        padding: 50px 70px;
+        gap: 20px;
+    }
+
+    .form-like {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .form-like__text {
+        flex-direction: row;
+        gap: 20px;
+        max-width: none;
+    }
+
+    .form-like__bid {
+        line-height: 1;
+    }
+
+    .form-like__desc {
+        max-width: 198px;
+    }
+
+    .form-bid {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .form-link {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .form .container {
+        margin-top: 50px;
+        padding: 20px 37px 30px 38px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 350px;
+    }
+
+    .form .desk {
+        display: flex;
+    }
+
+    .form-like {
+        gap: 30px;
+    }
+
+    .form-like__text {
+        flex-direction: column;
+        gap: 10px;
+        max-width: 142px;
+    }
+
+    .form-like__bid {
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 1.125;
+        text-align: center;
+        max-width: 122px;
+    }
+
+    .form-like__desc {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1;
+        font-family: "Futura PT Book", sans-serif;
+    }
+
+    .form-bid {
+        gap: 30px;
+        width: 100%;
+    }
+
+    .form-input {
+        flex-direction: column;
+    }
+
+    .form-input input {
+        width: 100%;
+    }
+
+    .form-link {
+        margin-top: 0;
+    }
+
+    .form-bid .mob {
+        display: none;
+    }
 }

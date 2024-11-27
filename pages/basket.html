@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
-    <link rel="stylesheet" href="styles/global.css">
-    <link rel="stylesheet" href="styles/form.css">
-    <link rel="stylesheet" href="styles/reviews.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/basket.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
 </head>
 <body>
 <header class="header">
     <div class="container">
         <div class="header-wrapper">
             <div class="logo-container">
-                <img src="assets/images/logo.png" alt="">
+                <img src="../assets/images/logo.png" alt="">
                 <input class="search" type="text" placeholder="Поиск по товарам">
             </div>
             <div class="header-line"></div>
@@ -35,17 +33,60 @@
                 <li>
                     <button class="link header-catalog">Каталог товаров</button>
                 </li>
-                <li><a href="pages/about.html">О компании</a></li>
-                <li><a href="pages/installation.html">Монтаж</a></li>
-                <li><a href="pages/guarantee.html">Гарантия</a></li>
-                <li><a href="pages/delivery.html">Доставка и оплата</a></li>
-                <li><a href="pages/contacts.html">Контакты</a></li>
+                <li><a href="../pages/about.html">О компании</a></li>
+                <li><a href="../pages/installation.html">Монтаж</a></li>
+                <li><a href="../pages/guarantee.html">Гарантия</a></li>
+                <li><a href="../pages/delivery.html">Доставка и оплата</a></li>
+                <li><a href="../pages/contacts.html">Контакты</a></li>
             </ul>
         </nav>
     </div>
 </header>
 <main>
-    <section class="main">
+    <section class="basket">
+        <div class="container">
+            <div class="basket-wrapper">
+                <div class="basket-block">
+                    <span class="basket-title">Получатель:</span>
+                    <div class="basket-inputs">
+                        <div class="basket-info">
+                            <input class="basket-name basket-input" type="text" placeholder="Ваше имя">
+                            <input class="basket-tel basket-input" type="tel" placeholder="Ваш телефон">
+                        </div>
+                        <input class="basket-email basket-input" type="email" placeholder="Ваш e-mail">
+                        <textarea class="basket-text basket-input"
+                                  placeholder="Ваш адрес: Город, улица, номер дома, этаж, квартира: "></textarea></div>
+                </div>
+                <div class="basket-block">
+                    <span class="basket-title">Ваш заказ:</span>
+                    <div class="basket-items">
+                        <div class="basket-item__info">
+                            <span>Товар</span>
+                            <span>Royal Clima RC-VX55HN (1)</span>
+                        </div>
+                        <div class="basket-item__info">
+                            <span>Доставка</span>
+                            <span>Бесплатно</span>
+                        </div>
+                    </div>
+                    <div class="basket-sum">
+                        <span class="basket-title">Итого:</span>
+                        <span class="basket-price">58 190 ₽</span>
+                    </div>
+                </div>
+            </div>
+
+            <p class="conditions">Условия доставки обговариваются при оформлении заказа с менеджером.</p>
+            <span class="basket-title pay">Способ оплаты:</span>
+            <div class="pay-list">
+                <label><input type="radio">Наличными курьеру при получении товара</label>
+                <label><input type="radio">Оплата курьеру картой</label>
+                <label><input type="radio">Оплата по QR-коду</label>
+            </div>
+            <a class="link basket-btn" href="">Оформить заказ</a>
+            <p  class="basket-politics">Нажимая кнопку «Оформить заказ», я соглашаюсь с Условиями заказа и доставки и обработку персональных
+                данных</p>
+        </div>
     </section>
 </main>
 <footer class="footer">
