@@ -23,7 +23,6 @@
     line-height: 1;
     color: var(--blue);
     display: block;
-    font-family: "Futura PT Book", sans-serif;
 }
 
 .basket-inputs {
@@ -176,4 +175,170 @@
     max-width: 559px;
     margin-top: 20px;
     padding-left: 81px;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .basket-wrapper {
+        flex-direction: column-reverse;
+        gap: 27px;
+    }
+
+    .basket-inputs {
+        margin-top: 34px;
+    }
+
+    .basket-input {
+        color: var(--devil);
+        padding: 10px 0 10px 20px;
+    }
+
+    .basket-info {
+        gap: 34px;
+    }
+
+    .basket-name {
+        width: 280px;
+    }
+
+    .basket-tel {
+        width: 280px;
+    }
+
+    .basket-block:first-child {
+        padding: 52px 36px 40px;
+    }
+
+    .conditions {
+        margin-top: 50px;
+        padding-left: 9px;
+    }
+
+    .pay {
+        padding-left: 13px;
+    }
+
+    .pay-list {
+        padding-left: 0;
+    }
+
+    .pay-list input {
+        width: auto;
+        padding-right: 15px;
+    }
+
+    .basket-btn {
+        margin-left: 49px;
+    }
+
+    .basket-politics {
+        max-width: 573px;
+        padding-left: 95px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .basket {
+        margin-top: 10px;
+    }
+
+    .basket .container {
+        padding: 0 3px;
+    }
+
+    .basket-wrapper {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .basket-block {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .basket-inputs {
+        margin-top: 30px;
+    }
+
+    .basket-input {
+        padding: 10px 0 10px 20px;
+    }
+
+    .basket-info {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .basket-name {
+        width: 335px;
+    }
+
+    .basket-tel {
+        width: 335px;
+    }
+
+    .basket-email {
+        width: 100%;
+    }
+
+    .basket-block:first-child {
+        padding: 20px 10px 20px 9px;
+    }
+
+    .basket-block:first-child .basket-title {
+        padding-left: 11px;
+    }
+
+    .basket-items {
+        margin-top: 20px;
+    }
+
+    .conditions {
+        margin-top: 30px;
+        text-align: center;
+        padding-left: 0;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1;
+        font-family: "Futura PT", sans-serif;
+    }
+
+    .pay {
+        padding-left: 40px;
+        margin-top: 30px;
+    }
+
+    .pay-list {
+        padding-left: 9px;
+    }
+
+    .pay-list input {
+        width: auto;
+        padding-right: 15px;
+    }
+
+    .pay-list label {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1;
+        font-family: "Futura PT", sans-serif;
+    }
+
+    .basket-btn {
+        margin-top: 50px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .basket-politics {
+        font-weight: 400;
+        font-family: "Futura PT Book", sans-serif;
+        font-size: 12px;
+        line-height: 1;
+        text-align: center;
+        color: var(--devil);
+        max-width: 333px;
+        margin-top: 20px;
+        padding-left: 27px;
+    }
 }
