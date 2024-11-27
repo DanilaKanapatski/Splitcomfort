@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
-    <link rel="stylesheet" href="../global.css">
-    <link rel="stylesheet" href="../form.css">
-    <link rel="stylesheet" href="../header.css">
-    <link rel="stylesheet" href="../footer.css">
-    <link rel="stylesheet" href="../guarantee.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/form.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/guarantee.css">
 </head>
 <body>
 <header class="header">
@@ -25,7 +26,7 @@
                 </div>
                 <a class="header-info__link" href="">Whats App</a>
                 <a class="header-info__link" href="">Telegram</a>
-                <a class="header-info__link" href="">Корзина</a>
+                <a class="header-info__link" href="../pages/basket.html">Корзина</a>
             </div>
         </div>
         <nav>
@@ -33,11 +34,11 @@
                 <li>
                     <button class="link header-catalog">Каталог товаров</button>
                 </li>
-                <li>О компании</li>
-                <li>Монтаж</li>
-                <li>Гарантия</li>
-                <li>Доставка и оплата</li>
-                <li>Контакты</li>
+                <li><a href="../pages/about.html">О компании</a></li>
+                <li><a href="../pages/installation.html">Монтаж</a></li>
+                <li><a href="#">Гарантия</a></li>
+                <li><a href="../pages/delivery.html">Доставка и оплата</a></li>
+                <li><a href="../pages/contacts.html">Контакты</a></li>
             </ul>
         </nav>
     </div>
@@ -51,11 +52,14 @@
                     <div class="main-block">
                         <h2 class="title">Гарантии</h2>
                         <p class="desc">На любой кондиционер, а также сопутствующие товары приобретенные в нашем интернет-магазине, предоставляется гарантия, а в случае установки кондиционера нашими <br>специалистами - гарантия на установку кондиционера.</p>
-                        <p class="desc">Являясь официальным дилером кондиционеров, представленных в нашем интернет-<br>магазине, мы сотрудничаем исключительно с генеральными дистрибьюторами <br>кондиционеров на территории России. Поэтому при покупке кондиционера Вы можете <br>рассчитывать на гарантийное обслуживание в нашем сервисном центре.</p>
+                        <p class="desc desk">Являясь официальным дилером кондиционеров, представленных в нашем интернет-<br>магазине, мы сотрудничаем исключительно с генеральными дистрибьюторами <br>кондиционеров на территории России. Поэтому при покупке кондиционера Вы можете <br>рассчитывать на гарантийное обслуживание в нашем сервисном центре.</p>
+                        <p class="desc mob">Являясь официальным дилером кондиционеров, представленных в нашем интернет-<br>магазине, мы сотрудничаем исключительно с генеральными дистрибьюторами кондиционеров на территории России. Поэтому при покупке кондиционера Вы можете <br>рассчитывать на гарантийное обслуживание в нашем сервисном центре.</p>
                     </div>
                     <div class="main-block">
-                        <p class="desc">Срок гарантии на кондиционеры не фиксирован и зависит от фирмы-производителя.<br>Обычно более дорогие модели кондиционеров надежных производителей имеют больший<br>срок гарантии по сравнению с дешевыми. Гарантийный срок каждого кондиционера Вы<br>можете найти в технических характеристиках.</p>
-                        <p class="desc">Будучи уверенными в профессионализме наших специалистов, наряду с гарантией<br>производителя, мы также предоставляем гарантию на установку кондиционера.<br>Гарантийный срок на установку кондиционера обычно равен сроку гарантии,<br>предоставляемой от производителя.</p>
+                        <p class="desc desk">Срок гарантии на кондиционеры не фиксирован и зависит от фирмы-производителя.<br>Обычно более дорогие модели кондиционеров надежных производителей имеют больший<br>срок гарантии по сравнению с дешевыми. Гарантийный срок каждого кондиционера Вы<br>можете найти в технических характеристиках.</p>
+                        <p class="desc mob">Срок гарантии на кондиционеры не фиксирован и зависит от фирмы-производителя. Обычно более дорогие модели кондиционеров надежных производителей имеют больший<br>срок гарантии по сравнению с дешевыми. Гарантийный срок каждого кондиционера Вы можете найти в технических характеристиках.</p>
+                        <p class="desc desk">Будучи уверенными в профессионализме наших специалистов, наряду с гарантией<br>производителя, мы также предоставляем гарантию на установку кондиционера.<br>Гарантийный срок на установку кондиционера обычно равен сроку гарантии,<br>предоставляемой от производителя.</p>
+                        <p class="desc mob">Будучи уверенными в профессионализме наших<br> специалистов, наряду с гарантией производителя, мы также предоставляем гарантию на установку кондиционера.<br>Гарантийный срок на установку кондиционера обычно равен сроку гарантии, предоставляемой от производителя.</p>
                     </div>
                 </div>
             </div>
@@ -104,6 +108,23 @@
                             если оборудование не было монтировано!
                         </li>
                     </ul>
+                    <ul class="conditions-list__mob desc">
+                        <li>1. установка кондиционера выполнен нашими специалистами, в остальных случаях гарантия
+                            действует в течение года;
+                        </li>
+                        <li>2. соблюдаются все рекомендации производителя;</li>
+                        <li> 3. регулярно проводится техническое обслуживание кондиционера нашими специалистами.</li>
+                        <li>4. При наступлении гарантийного случая в гарантийный период Вы можете рассчитывать
+                            на исправление неполадок нашими специалистами на месте либо в нашем сервисном центре.
+                        </li>
+                        <li> 5. Для уверенности в дальнейшей бесперебойной работе Вашего кондиционера по
+                            истечении гарантийного срока советуем Вам воспользоваться нашими услугами по
+                            постгарантийному обслуживанию подробнее на странице обслуживание кондиционеров
+                        </li>
+                        <li>6. Возврат товара. Срок возврата товара надлежащего качества составляет 15 дней с момента получения товара,
+                            если оборудование не было монтировано!
+                        </li>
+                    </ul>
                 </div>
                 <img src="../assets/images/guarantee-2.png" alt=""></div>
         </div>
@@ -114,12 +135,17 @@
                 <div class="form-circle">
                     <img src="../assets/images/like.svg" alt="">
                 </div>
-                <div class="form-like__text">
+                <div class="form-like__text desk">
                     <span class="form-like__bid">Оставьте заявку </span>
                     <span class="form-like__desc">Наши менеджеры свяжутся с вами и ответят на вопросы  </span>
                 </div>
             </div>
+
             <form class="form-bid" action="">
+                <div class="form-like__text mob">
+                    <span class="form-like__bid">Оставьте заявку </span>
+                    <span class="form-like__desc">Наши менеджеры свяжутся с вами и ответят на вопросы  </span>
+                </div>
                 <div class="form-input">
                     <input type="text" placeholder="Ваше имя">
                     <input type="tel" placeholder="Телефон"></div>
@@ -133,29 +159,29 @@
         <ul class="footer-list">
             <li>
                 <ul>
-                    <li>О компании</li>
-                    <li>О нас</li>
-                    <li>Отзывы</li>
-                    <li>Сертификаты</li>
+                    <li><a href="../pages/about.html">О компании</a></li>
+                    <li><a href="../pages/about.html">О нас</a></li>
+                    <li><a href="../index.html">Отзывы</a></li>
+                    <li><a href="../index.html">Сертификаты</a></li>
                 </ul>
             </li>
             <li>
                 <ul>
-                    <li>Каталог</li>
-                    <li>Монтаж</li>
-                    <li>Гарантия</li>
-                    <li>Доставка и оплата</li>
+                    <li><a href="../pages/catalog.html">Каталог</a></li>
+                    <li><a href="../pages/installation.html">Монтаж</a></li>
+                    <li><a href="#">Гарантия</a></li>
+                    <li><a href="../pages/delivery.html">Доставка и оплата</a></li>
                 </ul>
             </li>
             <li>
                 <ul>
                     <li class="footer-accent">Контакты</li>
-                    <li>+7 (812) - 401-51-00</li>
-                    <li>+7 (812) - 401-51-20</li>
-                    <li>pochta.23@mail.ru</li>
+                    <li><a href="tel:+7 (812) - 401-51-00">+7 (812) - 401-51-00</a></li>
+                    <li><a href="tel:+7 (812) - 401-51-20">+7 (812) - 401-51-20</a></li>
+                    <li><a href="mailto:pochta.23@mail.ru">pochta.23@mail.ru</a></li>
                 </ul>
             </li>
-            <li>
+            <li class="footer-desc">
                 <ul>
                     <li class="footer-accent">Адрес</li>
                     <li>Москва, улица Ленина 34 лит А</li>
@@ -166,12 +192,61 @@
                 </ul>
             </li>
         </ul>
+        <div class="footer-tablet">
+            <div>
+                <p class="footer-accent">Адрес</p>
+                <p>Москва, улица Ленина 34 лит А</p></div>
+            <div class="social">
+                <a class="social-links" href="">Whats App</a>
+                <a class="social-links" href="">Telegram</a>
+            </div>
+        </div>
     </div>
 </footer>
-<div class="container">
-    <div class="footer-bottom">
-        <span>©2024 Split-comfort. Все права защищены.</span>
-        <span>Политика конфиденциальности </span></div>
+<footer class="footer-mob">
+    <div class="container">
+        <ul class="footer-list">
+            <li>
+                <ul>
+                    <li><a href="../pages/about.html">О компании</a></li>
+                    <li><a href="../pages/about.html">О нас</a></li>
+                    <li><a href="../index.html">Отзывы</a></li>
+                    <li><a href="../index.html">Сертификаты</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li><a href="../pages/catalog.html">Каталог</a></li>
+                    <li><a href="../pages/installation.html">Монтаж</a></li>
+                    <li><a href="#">Гарантия</a></li>
+                    <li><a href="../pages/delivery.html">Доставка и оплата</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="footer-address">
+            <p class="footer-accent">Адрес</p>
+            <p>Москва, улица Ленина 34 лит А</p>
+        </div>
+        <div class="footer-wrapper">
+            <ul class="footer-contacts">
+                <li class="footer-accent">Контакты</li>
+                <li><a href="tel:+7 (812) - 401-51-00">+7 (812) - 401-51-00</a></li>
+                <li><a href="tel:+7 (812) - 401-51-20">+7 (812) - 401-51-20</a></li>
+                <li><a href="mailto:pochta.23@mail.ru">pochta.23@mail.ru</a></li>
+            </ul>
+            <div class="social">
+                <a class="social-links" href="">Whats App</a>
+                <a class="social-links" href="">Telegram</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="container-bottom">
+    <div class="container">
+        <div class="footer-bottom">
+            <span>©2024 Split-comfort. Все права защищены.</span>
+            <span>Политика конфиденциальности </span></div>
+    </div>
 </div>
 </body>
 </html>
