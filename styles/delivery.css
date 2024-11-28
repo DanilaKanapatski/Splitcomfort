@@ -54,7 +54,7 @@
     content: "";
     position: absolute;
     left: 7px;
-    top: 6px;
+    top: 4px;
     width: 5px;
     height: 5px;
     background: var(--black);
@@ -63,20 +63,28 @@
 
 .delivery-list li:nth-child(5) {
     color: var(--orange);
-    margin-top: 13px;
+    margin-top: 14px;
+}
+
+.delivery-list li:nth-child(5):before {
+    background: var(--orange);
 }
 
 .delivery-list li:nth-child(6) {
-    margin-top: 13px;
+    margin-top: 14px;
 }
 
 .delivery-list li:nth-child(7) {
-    margin-top: 13px;
+    margin-top: 14px;
 }
 
 .delivery-list li:nth-child(8) {
     color: var(--blue);
-    margin-top: 13px;
+    margin-top: 14px;
+}
+
+.delivery-list li:nth-child(8):before {
+    background: var(--blue);
 }
 
 .payment {
@@ -225,6 +233,206 @@
     color: var(--blue);
 }
 
-.change-list:nth-child(2) {
+.change-list:nth-child(3) {
     margin-top: 14px;
+}
+
+.mob {
+    display: none;
+}
+
+@media screen and (max-width: 1440px) {
+    .delivery {
+        margin-top: 30px;
+    }
+
+    .delivery-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .delivery-wrapper img {
+        width: 100%;
+    }
+
+    .delivery-block {
+        margin-top: 0;
+        padding: 40px 85px 40px 40px;
+    }
+
+    .payment {
+        margin-top: 20px;
+    }
+
+    .payment-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .payment-block:first-child {
+        max-width: none;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .payment-left img {
+        width: 100%;
+    }
+
+    .payment-left {
+        gap: 30px;
+    }
+
+    .desk {
+        display: none;
+    }
+
+    .mob {
+        display: block;
+    }
+
+    .change-docs p {
+        position: relative;
+        padding-left: 21px;
+    }
+
+    .change-docs p:before {
+        content: "";
+        position: absolute;
+        left: 7px;
+        top: 4px;
+        width: 5px;
+        height: 5px;
+        background: var(--black);
+        border-radius: 100%;
+    }
+
+    .change-connect {
+        position: relative;
+        padding-left: 21px;
+    }
+
+    .change-connect:before {
+        content: "";
+        position: absolute;
+        left: 7px;
+        top: 4px;
+        width: 5px;
+        height: 5px;
+        background: var(--black);
+        border-radius: 100%;
+    }
+
+    .change-call {
+        margin-top: 14px;
+    }
+
+    .change-call span {
+        color: var(--blue);
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .delivery {
+        margin-top: 20px;
+    }
+
+    .delivery-wrapper {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .delivery-wrapper img {
+        width: 100%;
+    }
+
+    .delivery-block {
+        margin-top: 0;
+        padding: 20px;
+        gap: 20px;
+        width: 340px;
+    }
+
+    .delivery-desc {
+        max-width: 307px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .delivery-subtitle {
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 1.125;
+    }
+
+    .delivery-list {
+        font-size: 12px;
+    }
+
+    .delivery-list li {
+        padding-left: 18px;
+        position: relative;
+    }
+
+    .payment {
+        margin-top: 20px;
+    }
+
+    .payment-block {
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    .payment-block:first-child {
+        max-width: 340px;
+        padding-bottom: 20px;
+    }
+
+    .payment-left img {
+        width: 100%;
+    }
+
+    .payment-left {
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .payment-left__title {
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 1.125;
+    }
+
+    .payment-right__title {
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 1.125;
+    }
+
+    .payment-left__list li {
+        position: relative;
+        padding-left: 18px;
+    }
+
+    .change-list li {
+        position: relative;
+        padding-left: 18px;
+    }
+
+    .change-docs p {
+        position: relative;
+        padding-left: 18px;
+    }
+
+    .change-connect {
+        position: relative;
+        padding-left: 18px;
+    }
+
+    .mob {
+        display: block;
+    }
+
+    .change-docs {
+        max-width: 300px;
+    }
 }
