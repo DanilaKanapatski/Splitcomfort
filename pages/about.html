@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="../global.css">
-    <link rel="stylesheet" href="../about.css">
-    <link rel="stylesheet" href="../reviews.css">
-    <link rel="stylesheet" href="../form.css">
-    <link rel="stylesheet" href="../header.css">
-    <link rel="stylesheet" href="../footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/about.css">
+    <link rel="stylesheet" href="../styles/reviews.css">
+    <link rel="stylesheet" href="../styles/form.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
 </head>
 <body>
 <header class="header">
@@ -34,7 +35,7 @@
                 <li>
                     <button class="link header-catalog">Каталог товаров</button>
                 </li>
-                <li>О компании</li>
+                <li><a href="about.html">О компании</a></li>
                 <li>Монтаж</li>
                 <li><a href="guarantee.html">Гарантия</a></li>
                 <li>Доставка и оплата</li>
@@ -54,24 +55,44 @@
                         <p class="desc">Наша компания работает на рынке климатического оборудования с 2015 года.
                             <br><span>Люди – делают климат,
                     и мы с радостью поможем Вам в этом.</span></p>
-                        <p class="desc">Мы искренне надеемся, что Вы с пользой потратите свое дорогое время, и сделаете<br>
+                        <p class="desc desk">Мы искренне надеемся, что Вы с пользой потратите свое дорогое время, и сделаете<br>
+                            правильный
+                            выбор
+                            в создании комфорта и здорового микроклимата у себя дома.</p>
+                        <p class="desc mob">Мы искренне надеемся, что Вы с пользой потратите свое дорогое время, и сделаете
                             правильный
                             выбор
                             в создании комфорта и здорового микроклимата у себя дома.</p>
                     </div>
                     <div class="about-block">
-                        <p class="desc">С самого начала работы в компании был положен принцип:<br>
+                        <p class="desc desk">С самого начала работы в компании был положен принцип:<br>
                             <span>“Качество выполненных работ и гарантия - на первом месте”</span><br>
                             Залог успеха компании – это сдача объекта в срок с гарантией качества и учета любых<br>
                             возможных
                             требований клиента.</p>
-                        <p class="desc">Позвонив нам или оставив заявку Вы сможете получить качественную консультацию
+                        <p class="desc mob">С самого начала работы в компании был положен принцип:<br>
+                            <span>“Качество выполненных работ и гарантия - на первом месте”</span><br>
+                            Залог успеха компании – это сдача объекта в срок с гарантией качества и учета любых
+                            возможных
+                            требований клиента.</p>
+                        <p class="desc desk">Позвонив нам или оставив заявку Вы сможете получить качественную консультацию
                             и<br>помощь в
                             подборе
                             оборудования. При необходимости Вам будет предложено<br>индивидуальное проектное решение с
                             учетом
                             специфики помещений и пожеланий.</p>
-                        <p class="desc">Наша компания использует современные и зарекомендовавшие себя технологии
+                        <p class="desc mob">Позвонив нам или оставив заявку Вы сможете получить качественную консультацию
+                            и помощь в
+                            подборе
+                            оборудования. При необходимости Вам будет предложено индивидуальное проектное решение с
+                            учетом
+                            специфики помещений и пожеланий.</p>
+                        <p class="desc desk">Наша компания использует современные и зарекомендовавшие себя технологии
+                            в<br>производстве
+                            комплекса
+                            работ «под ключ» - проектировании, установке, пуско-<br>наладке, обслуживании систем
+                            кондиционирования и вентиляции.</p>
+                        <p class="desc mob">Наша компания использует современные и зарекомендовавшие себя технологии
                             в<br>производстве
                             комплекса
                             работ «под ключ» - проектировании, установке, пуско-наладке, обслуживании систем
@@ -248,12 +269,17 @@
                 <div class="form-circle">
                     <img src="../assets/images/like.svg" alt="">
                 </div>
-                <div class="form-like__text">
+                <div class="form-like__text desk">
                     <span class="form-like__bid">Оставьте заявку </span>
                     <span class="form-like__desc">Наши менеджеры свяжутся с вами и ответят на вопросы  </span>
                 </div>
             </div>
+
             <form class="form-bid" action="">
+                <div class="form-like__text mob">
+                    <span class="form-like__bid">Оставьте заявку </span>
+                    <span class="form-like__desc">Наши менеджеры свяжутся с вами и ответят на вопросы  </span>
+                </div>
                 <div class="form-input">
                     <input type="text" placeholder="Ваше имя">
                     <input type="tel" placeholder="Телефон"></div>
@@ -267,29 +293,29 @@
         <ul class="footer-list">
             <li>
                 <ul>
-                    <li>О компании</li>
-                    <li>О нас</li>
-                    <li>Отзывы</li>
-                    <li>Сертификаты</li>
+                    <li><a href="../pages/about.html">О компании</a></li>
+                    <li><a href="../pages/about.html">О нас</a></li>
+                    <li><a href="../index.html">Отзывы</a></li>
+                    <li><a href="../index.html">Сертификаты</a></li>
                 </ul>
             </li>
             <li>
                 <ul>
-                    <li>Каталог</li>
-                    <li>Монтаж</li>
-                    <li>Гарантия</li>
-                    <li>Доставка и оплата</li>
+                    <li><a href="../pages/catalog.html">Каталог</a></li>
+                    <li><a href="../pages/installation.html">Монтаж</a></li>
+                    <li><a href="../pages/guarantee.html">Гарантия</a></li>
+                    <li><a href="../pages/delivery.html">Доставка и оплата</a></li>
                 </ul>
             </li>
             <li>
                 <ul>
                     <li class="footer-accent">Контакты</li>
-                    <li>+7 (812) - 401-51-00</li>
-                    <li>+7 (812) - 401-51-20</li>
-                    <li>pochta.23@mail.ru</li>
+                    <li><a href="tel:+7 (812) - 401-51-00">+7 (812) - 401-51-00</a></li>
+                    <li><a href="tel:+7 (812) - 401-51-20">+7 (812) - 401-51-20</a></li>
+                    <li><a href="mailto:pochta.23@mail.ru">pochta.23@mail.ru</a></li>
                 </ul>
             </li>
-            <li>
+            <li class="footer-desc">
                 <ul>
                     <li class="footer-accent">Адрес</li>
                     <li>Москва, улица Ленина 34 лит А</li>
@@ -300,12 +326,61 @@
                 </ul>
             </li>
         </ul>
+        <div class="footer-tablet">
+            <div>
+                <p class="footer-accent">Адрес</p>
+                <p>Москва, улица Ленина 34 лит А</p></div>
+            <div class="social">
+                <a class="social-links" href="">Whats App</a>
+                <a class="social-links" href="">Telegram</a>
+            </div>
+        </div>
     </div>
 </footer>
+<footer class="footer-mob">
     <div class="container">
-<div class="footer-bottom">
-        <span>©2024 Split-comfort. Все права защищены.</span>
-        <span>Политика конфиденциальности </span></div>
+        <ul class="footer-list">
+            <li>
+                <ul>
+                    <li><a href="../pages/about.html">О компании</a></li>
+                    <li><a href="../pages/about.html">О нас</a></li>
+                    <li><a href="../index.html">Отзывы</a></li>
+                    <li><a href="../index.html">Сертификаты</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li><a href="../pages/catalog.html">Каталог</a></li>
+                    <li><a href="../pages/installation.html">Монтаж</a></li>
+                    <li><a href="../pages/guarantee.html">Гарантия</a></li>
+                    <li><a href="../pages/delivery.html">Доставка и оплата</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="footer-address">
+            <p class="footer-accent">Адрес</p>
+            <p>Москва, улица Ленина 34 лит А</p>
+        </div>
+        <div class="footer-wrapper">
+            <ul class="footer-contacts">
+                <li class="footer-accent">Контакты</li>
+                <li><a href="tel:+7 (812) - 401-51-00">+7 (812) - 401-51-00</a></li>
+                <li><a href="tel:+7 (812) - 401-51-20">+7 (812) - 401-51-20</a></li>
+                <li><a href="mailto:pochta.23@mail.ru">pochta.23@mail.ru</a></li>
+            </ul>
+            <div class="social">
+                <a class="social-links" href="">Whats App</a>
+                <a class="social-links" href="">Telegram</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="container-bottom">
+    <div class="container">
+        <div class="footer-bottom">
+            <span>©2024 Split-comfort. Все права защищены.</span>
+            <span>Политика конфиденциальности </span></div>
+    </div>
 </div>
 </body>
 </html>

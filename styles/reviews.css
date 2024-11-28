@@ -69,3 +69,89 @@
 .reviews-link {
     margin: 30px auto 0;
 }
+
+@media screen and (max-width: 1440px) {
+    .reviews {
+        margin-top: 50px;
+    }
+
+    .reviews-list {
+        margin-top: 50px;
+        display: flex;
+        gap: 7px;
+        overflow: hidden;
+    }
+
+    .reviews-list li {
+        max-width: none;
+        width: 390px;
+        padding: 30px 21px 30px 32px;
+    }
+
+    .reviews-list li:last-child {
+        display: none;
+    }
+
+    .reviews-list li:nth-child(2) {
+        display: none;
+    }
+
+    .reviews-list__desc {
+        margin-top: 20px;
+    }
+
+    .reviews-list__rating {
+        margin-top: 3px;
+        display: flex;
+        gap: 10px;
+        align-items: baseline;
+    }
+
+    .reviews-link {
+        margin: 40px auto 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .reviews {
+        margin-top: 50px;
+    }
+
+    .reviews .title {
+        text-align: center;
+    }
+
+    .reviews-list {
+        margin-top: 30px;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .reviews-list li:nth-child(2) {
+        display: block;
+    }
+
+    .reviews-list li {
+        max-width: 304px;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .reviews-list__desc {
+        font-weight: 400;
+        margin-top: 10px;
+        max-width: 244px;
+        font-family: "Futura PT Book", sans-serif;
+        font-size: 12px;
+    }
+
+    .reviews-list__rating {
+        align-items: baseline;
+    }
+
+    .reviews-link {
+        margin: 30px auto 0;
+    }
+}

@@ -7,6 +7,10 @@
     gap: 30px;
 }
 
+.about-wrapper img {
+    width: 570px;
+}
+
 .about-block {
     padding: 40px 0 40px 40px;
     border: 1px solid var(--gayBlue);
@@ -16,6 +20,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 100%;
 }
 
 .about-text {
@@ -23,6 +28,7 @@
     flex-direction: column;
     gap: 30px;
     margin-top: 8px;
+    width: 100%;
 }
 
 .about-title {
@@ -122,6 +128,8 @@
     flex-direction: column;
     gap: 30px;
     margin-top: 50px;
+    max-width: 501px;
+    width: 100%;
 }
 
 /**/
@@ -154,10 +162,255 @@
     background: #c4c4c4;
 }
 
-/**/
+.mob {
+    display: none;
+}
 
+@media screen and (max-width: 1440px) {
 
-/**/
+    .about-wrapper {
+        gap: 46px;
+        flex-wrap: wrap;
+    }
 
+    .about-wrapper img {
+        width: 100%;
+    }
 
+    .about-block {
+        padding: 40px 99px 40px 40px;
+    }
 
+    .about-text {
+        margin-top: 0;
+    }
+
+    /**/
+    .why {
+        margin-top: 50px;
+    }
+
+    .why .container {
+        max-width: 710px;
+    }
+
+    .why-title {
+        padding-left: 21px;
+    }
+
+    .why-list {
+        margin-top: 50px;
+        gap: 30px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .why-list li {
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .why-list li .subtitle {
+        text-align: center;
+    }
+
+    .why-list li:first-child .desc {
+        padding: 0 43px 0 44px;
+    }
+
+    .why-list li:nth-child(2) .desc {
+        padding: 0 28px;
+    }
+
+    .why-list li:nth-child(3) .desc {
+        padding: 0 22px 0 23px;
+    }
+
+    /**/
+    .specialists {
+        margin-top: 50px;
+    }
+
+    .specialists-wrapper {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+        gap: 50px;
+        justify-content: space-between;
+    }
+
+    .specialists-wrapper img {
+        width: 100%;
+    }
+
+    .specialists-content {
+        max-width: none;
+    }
+
+    .specialists-text {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 30px;
+        max-width: none;
+        width: 100%;
+    }
+
+    .specialists-text:nth-child(2) {
+        max-width: 663px;
+    }
+
+    /**/
+    .certificates {
+        margin-top: 50px;
+    }
+
+    .certificates-list {
+        margin-top: 50px;
+        display: flex;
+        overflow: hidden;
+        gap: 10px;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+    .about {
+        margin-top: 20px;
+    }
+
+    .about-wrapper {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .about-block {
+        padding: 20px 24px 20px 20px;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .about-text {
+        gap: 20px;
+        margin-top: 0;
+    }
+
+    .about-block span {
+        font-weight: normal;
+    }
+
+    .desk {
+        display: none;
+    }
+
+    .mob {
+        display: block;
+    }
+
+    /**/
+
+    .why {
+        margin-top: 50px;
+    }
+
+    .why-list {
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    .why .container {
+        max-width: 360px;
+    }
+
+    .why-list li {
+        padding: 28px 0;
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .why-title {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .why-list li .desc {
+        margin-top: 20px;
+    }
+
+    .why-list li:first-child .desc {
+        padding: 0 43px 0 44px;
+    }
+
+    .why-list li:nth-child(2) .desc {
+        padding: 0 28px;
+    }
+
+    .why-list li:nth-child(3) .desc {
+        padding: 0 22px 0 23px;
+    }
+
+    .why-circle div {
+        font-weight: 900;
+    }
+
+    .why-list .subtitle {
+        font-weight: 900;
+    }
+
+    /**/
+
+    .specialists {
+        margin-top: 50px;
+        padding: 30px 0;
+    }
+
+    .specialists-wrapper {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .specialists-content {
+        max-width: 340px;
+    }
+
+    .specialists-content .title {
+        text-align: center;
+    }
+
+    .specialists-text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 30px;
+        max-width: 340px;
+        width: 100%;
+    }
+
+    /**/
+
+    .certificates {
+        margin-top: 50px;
+    }
+
+    .certificates .title {
+        text-align: center;
+    }
+
+    .certificates-list {
+        margin-top: 30px;
+        overflow: initial;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .certificates-list li {
+        max-width: 348px;
+        width: 100%;
+        padding: 25px 20px 24px;
+        display: flex;
+        gap: 30px;
+    }
+
+}
