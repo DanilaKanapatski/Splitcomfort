@@ -151,7 +151,7 @@
     max-width: 535px;
 }
 
-.stages-list span{
+.stages-list span {
     font-weight: 900;
     font-size: 14px;
     line-height: 1;
@@ -398,4 +398,627 @@
 
 .right:nth-child(3) {
     margin-top: 19px;
+}
+
+.mob {
+    display: none;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .installation-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .installation-content {
+        gap: 20px;
+        max-width: 669px;
+        width: 100%;
+    }
+
+    .installation-wrapper img {
+        width: 100%;
+    }
+
+    .installation-text {
+        max-width: 534px;
+    }
+
+    .installation-block {
+        padding: 40px 40px 40px 40px;
+        max-width: 669px;
+        width: 100%;
+    }
+
+    .installation-block__list li {
+        padding-left: 20px;
+    }
+
+    .installation-block__list li:before {
+        top: 5px;
+    }
+
+    /**/
+    .steps {
+        padding: 30px 0 50px;
+    }
+
+    .steps-wrapper {
+        flex-wrap: wrap-reverse;
+        gap: 50px;
+    }
+
+    .steps-wrapper img {
+        width: 100%;
+    }
+
+    .steps-subtitle {
+        padding-left: 0;
+    }
+
+    .steps-list li {
+        padding-left: 17px;
+    }
+
+    .steps-list li:before {
+        left: 3px;
+        top: 4px;
+    }
+
+    .steps-cost {
+        padding-left: 17px;
+    }
+
+    .steps-installation {
+        margin-bottom: 14px;
+        max-width: 505px;
+    }
+
+    .stages {
+        margin-top: 70px;
+    }
+
+    .stages-list {
+        gap: 30px;
+        flex-direction: column;
+        padding: 0 52px;
+    }
+
+    /**/
+    .additional-list li {
+        position: relative;
+        padding-left: 20px;
+        font-weight: 400;
+        font-family: "Futura PT Book", sans-serif;
+        font-size: 14px;
+    }
+
+    .additional-list li:before {
+        left: 7px;
+        top: 5px;
+    }
+
+    /**/
+    .replace {
+        margin-top: 55px;
+    }
+
+    .replace-wrapper {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        gap: 30px;
+        justify-content: space-between;
+    }
+
+    .replace-wrapper img {
+        width: 100%;
+    }
+
+    .replace-block .title {
+        margin-top: 0;
+    }
+
+    .replace-secondBlock {
+        margin-top: 55px;
+    }
+
+    .min {
+        max-width: 617px;
+    }
+
+    /**/
+    /**/
+    .tables {
+        margin-top: 50px;
+    }
+
+    .tables-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .tables-right {
+        align-items: center;
+        width: 100%;
+        gap: 50px;
+    }
+
+    .tables-right table {
+        width: 565px;
+    }
+
+    .tables-title {
+        margin-left: -52px;
+    }
+
+    .table-first__title {
+        margin-left: -22px;
+    }
+
+    .tables-desc {
+        margin-left: -52px;
+    }
+
+    .table-cost {
+        max-width: 625px;
+        margin-top: 30px;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right td {
+        padding: 10px 0 10px 12px;
+    }
+
+    .right:nth-child(3) {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .installation {
+        margin-top: 20px;
+    }
+
+    .installation-wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .installation-content {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .installation-wrapper img {
+        width: 100%;
+    }
+
+    .installation-block {
+        padding: 20px 20px 20px 20px;
+        font-size: 12px;
+        line-height: 1;
+        width: 100%;
+    }
+
+    .installation-block:first-child {
+        padding: 20px 32px 20px 20px;
+        font-size: 12px;
+        line-height: 1;
+        width: 100%;
+    }
+
+    .desk {
+        display: none;
+    }
+
+    .mob {
+        display: block;
+    }
+
+    .installation-block .title {
+        text-align: center;
+    }
+
+    .installation-text {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .installation-block__subtitle {
+        max-width: 242px;
+    }
+
+    .installation-block__list li {
+        padding-left: 20px;
+        position: relative;
+    }
+
+    .installation-block__list li:before {
+        content: "";
+        position: absolute;
+        left: 7px;
+        top: 4px;
+        width: 5px;
+        height: 5px;
+        background: var(--black);
+        border-radius: 50%;
+    }
+
+    /**/
+    .steps {
+        padding: 30px 0;
+        font-size: 12px;
+    }
+
+    .steps-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .steps-subtitle {
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 20px;
+        padding-left: 12px;
+    }
+
+    .steps .title {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .steps-list li {
+        position: relative;
+        padding-left: 25px;
+        max-width: 505px;
+    }
+
+    .steps-list li:before {
+        content: "";
+        position: absolute;
+        left: 14px;
+        top: 6px;
+        width: 5px;
+        height: 5px;
+        background: var(--black);
+        border-radius: 50%;
+    }
+
+    .steps-cost {
+        margin-top: 14px;
+        color: var(--blue);
+        margin-bottom: 30px;
+        padding-left: 25px;
+    }
+
+    .steps-installation {
+        margin-bottom: 14px;
+        /*padding-left: 25px;*/
+        max-width: 505px;
+    }
+
+    .stages {
+        margin-top: 30px;
+    }
+
+    .stages h3 {
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        line-height: 1;
+        font-family: "Futura PT", sans-serif;
+    }
+
+    .stages-list {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 32px;
+        padding: 0;
+        gap: 24px;
+    }
+
+    .stages-list li:first-child {
+        max-width: 450px;
+    }
+
+    .stages-list li:nth-child(2) {
+        max-width: 535px;
+    }
+
+    .stages-list span {
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 1;
+    }
+
+    .stages-list p {
+        margin-top: 14px;
+    }
+
+    /**/
+    .additional {
+        padding: 30px 0;
+    }
+
+    .additional .title {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .additional-desc {
+        margin: 20px auto 0;
+        text-align: center;
+        line-height: 1;
+        font-family: "Futura PT Book", sans-serif;
+    }
+
+    .additional-list {
+        margin: 30px auto 0;
+        max-width: 335px;
+    }
+
+    .additional-list li {
+        position: relative;
+        padding-left: 20px;
+        color: var(--devil);
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1;
+    }
+
+    .additional-list li:before {
+        content: "";
+        position: absolute;
+        left: 7px;
+        top: 4px;
+        width: 5px;
+        height: 5px;
+        background: var(--devil);
+        border-radius: 50%;
+    }
+
+    /**/
+    .replace {
+        margin-top: 30px;
+    }
+
+    .replace-wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .replace-block {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1;
+        font-family: "Futura PT Book", sans-serif;
+        display: flex;
+        flex-direction: column;
+        max-width: 335px;
+        gap: 30px;
+    }
+
+    .replace-block .title {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .replace-desc {
+        max-width: 500px;
+    }
+
+    .replace-subtitle {
+        padding-left: 6px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1;
+        color: var(--blue);
+        font-family: "Futura PT", sans-serif;
+    }
+
+    .replace-list {
+        max-width: 603px;
+        font-size: 12px;
+    }
+
+    .replace-list li {
+        padding-left: 6px;
+    }
+
+    .second-list {
+        max-width: 587px;
+    }
+
+
+    .second-list li {
+        position: relative;
+        padding-left: 20px;
+    }
+
+    .second-list li:before {
+        content: "";
+        position: absolute;
+        left: 9px;
+        top: 4px;
+        width: 5px;
+        height: 5px;
+        background: var(--black);
+        border-radius: 50%;
+    }
+
+    .replace-secondBlock {
+        margin-top: 30px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1;
+        font-family: "Futura PT Book", sans-serif;
+    }
+
+    .third-list {
+        margin-top: 20px;
+
+    }
+
+    .third-list li {
+        position: relative;
+        padding-left: 20px;
+    }
+
+    .third-list li:before {
+        content: "";
+        position: absolute;
+        left: 9px;
+        top: 4px;
+        width: 5px;
+        height: 5px;
+        background: var(--black);
+        border-radius: 50%;
+    }
+
+    .replace-dopText {
+        color: var(--blue);
+        padding-left: 25px;
+        margin-top: 14px;
+    }
+
+    /**/
+    .prepare {
+        margin-top: 30px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1;
+        font-family: "Futura PT Book", sans-serif;
+    }
+
+    .prepare .title {
+        margin:  0 auto;
+        text-align: center;
+        max-width: 190px;
+    }
+
+    .prepare .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 335px;
+        gap: 30px;
+    }
+
+    /**/
+    .tables {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .tables-wrapper {
+        display: flex;
+        gap: 50px;
+    }
+
+    .table-first__title {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .tables-right {
+        max-width: 565px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .tables-right table {
+        width: 360px;
+    }
+
+    .tables-right .tables-title {
+        text-align: center;
+        max-width: 300px;
+        margin:  0 auto;
+    }
+
+    .tables-right .mini {
+        text-align: center;
+        max-width: 250px;
+        margin:  0 auto;
+    }
+
+    .tables-title {
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 1.125;
+        max-width: 292px;
+        margin: 0 auto;
+    }
+
+    .tables-desc {
+        margin: 14px auto  0;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .table-cost {
+        max-width: 625px;
+        box-shadow: 0 1px 10px 0 var(--gayBlue);
+        margin-top: 30px;
+        border-collapse: separate;
+        border-spacing: 0;
+        border-radius: 4px;
+        overflow: hidden;
+        border: 1px solid var(--devil);
+    }
+
+    .table-cost td {
+        width: 33%;
+        font-weight: 400;
+        font-family: "Futura PT Book", sans-serif;
+        font-size: 14px;
+        line-height: 1;
+        color: var(--devil);
+        padding: 16px 0 16px 12px;
+        border-right: 1px solid var(--devil);
+        border-bottom: 1px solid var(--devil);
+    }
+
+    .table-cost tr:last-child td {
+        border-bottom: none;
+    }
+
+    .table-cost td:last-child {
+        border-right: none;
+    }
+
+    .table-cost .long-text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1;
+        color: var(--devil);
+        /*padding: 10px 10px 10px 10px;*/
+        font-family: "Futura PT Book", sans-serif;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right td {
+        padding: 10px 0 10px 12px;
+    }
+
+    .right:nth-child(3) {
+        margin-top: 30px;
+    }
 }

@@ -171,6 +171,10 @@
     color: var(--blue);
 }
 
+.change-text .change-list {
+    margin-top: 14px;
+}
+
 .change-list {
     display: flex;
     flex-direction: column;

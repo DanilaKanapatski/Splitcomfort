@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
-    <link rel="stylesheet" href="../global.css">
-    <link rel="stylesheet" href="../form.css">
-    <link rel="stylesheet" href="../reviews.css">
-    <link rel="stylesheet" href="../installation.css">
-    <link rel="stylesheet" href="../header.css">
-    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/form.css">
+    <link rel="stylesheet" href="../styles/installation.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
 </head>
 <body>
 <header class="header">
@@ -27,7 +26,7 @@
                 </div>
                 <a class="header-info__link" href="">Whats App</a>
                 <a class="header-info__link" href="">Telegram</a>
-                <a class="header-info__link" href="">Корзина</a>
+                <a class="header-info__link" href="../pages/basket.html">Корзина</a>
             </div>
         </div>
         <nav>
@@ -35,11 +34,11 @@
                 <li>
                     <button class="link header-catalog">Каталог товаров</button>
                 </li>
-                <li><a href="about.html">О компании</a></li>
-                <li>Монтаж</li>
-                <li><a href="guarantee.html">Гарантия</a></li>
-                <li><a href="delivery.html">Доставка и оплата</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="../pages/about.html">О компании</a></li>
+                <li><a href="../pages/installation.html">Монтаж</a></li>
+                <li><a href="../pages/guarantee.html">Гарантия</a></li>
+                <li><a href="../pages/delivery.html">Доставка и оплата</a></li>
+                <li><a href="../pages/contacts.html">Контакты</a></li>
             </ul>
         </nav>
     </div>
@@ -53,8 +52,18 @@
                     <div class="installation-block">
                         <h2 class="title">Установка кондиционеров</h2>
                         <div class="installation-text">
-                            <p>Установка кондиционеров - один из основных видов деятельности нашей компании.<br>В нашем
+                            <p class="desk">Установка кондиционеров - один из основных видов деятельности нашей компании.<br>В нашем
                                 интернет-магазине Вы можете не только купить кондиционер, но также<br> и заказать
+                                установку
+                                кондиционера. Вам не придется искать мастеров по установке - наши специалисты помогут
+                                Вам
+                                выбрать кондиционер, правильно подобрать место для его монтажа, а также быстро и
+                                качественно
+                                установить кондиционер. При этом обращаем Ваше внимание на то, что при покупке
+                                кондиционера
+                                вместе с установкой, Вы получаете единую гарантию на оборудование и работы.</p>
+                            <p class="mob">Установка кондиционеров - один из основных видов деятельности нашей компании. В нашем
+                                интернет-магазине Вы можете не только купить кондиционер, но также и заказать
                                 установку
                                 кондиционера. Вам не придется искать мастеров по установке - наши специалисты помогут
                                 Вам
@@ -131,8 +140,10 @@
                     </li>
                     <li>
                         <span>2 вариант:</span>
-                        <p>
+                        <p class="desk">
                             За первую часть (только закладка коммуникаций) 14000 руб.<br> За вторую часть (установка внутреннего и внешнего блока с пуском и наладкой) 12000 руб. *Рассчитана средняя длина коммуникаций длиной 4 м. для моделей 07 - 09</p>
+                        <p class="mob">
+                            За первую часть (только закладка коммуникаций) 14000 руб.<br> За вторую часть (установка внутреннего и внешнего блока с пуском и наладкой) 12000 руб.<br> *Рассчитана средняя длина коммуникаций длиной 4 м. для моделей<br> 07 - 09</p>
                     </li>
                 </ul>
             </div>
@@ -142,7 +153,7 @@
         <div class="container">
             <div class="tables-wrapper">
                 <div>
-                    <h3 class="tables-title">Стоимость установки кондиционеров по типам и мощностям:</h3>
+                    <h3 class="tables-title table-first__title">Стоимость установки кондиционеров по типам и мощностям:</h3>
                     <table class="table-cost">
                         <tbody>
                         <tr>
@@ -192,7 +203,7 @@
                 </div>
                 <div class="tables-right">
                     <div>
-                        <h3 class="tables-title">Установка кондиционеров мульти-сплит системы:</h3>
+                        <h3 class="tables-title mini">Установка кондиционеров мульти-сплит системы:</h3>
                         <table class="table-cost right">
                             <tbody>
                             <tr>
@@ -293,7 +304,8 @@
                     <h3 class="replace-subtitle">1. Как происходит Замена кондиционера?</h3>
                     <ul class="replace-list">
                         <li>1. Прежде всего подобрать новый кондиционер, подходящий под ваши требования. На сайте можно выбрать настенные кондиционеры.</li>
-                        <li>2. Уточнить диаметры трубок у заменяемого блока, для этого можно просто сфотографировать<br> название блока и отправить нашим специалистам, или поискать по названию в интернете.</li>
+                        <li class="desk">2. Уточнить диаметры трубок у заменяемого блока, для этого можно просто сфотографировать<br> название блока и отправить нашим специалистам, или поискать по названию в интернете.</li>
+                        <li class="mob">2. Уточнить диаметры трубок у заменяемого блока, для этого можно просто сфотографировать название блока и отправить нашим специалистам, или поискать по названию в интернете.</li>
                         <li>3. Нужно правильно демонтировать оборудование с сохранением фреона. Во-первых, чтобы не загрязнять экологию. Во-вторых, если оборудование рабочие, чтобы была возможность<br>переустановить его на другом объекте.</li>
                         <li>4. Установка на существующую фреонопровода с подключением коммуникаций.</li>
                         <li>5. Вакуумирование с пуском и проверкой на герметичность.</li>
@@ -309,7 +321,7 @@
             </div>
             <div class="replace-secondBlock">
                 <h3 class="replace-subtitle">3. Замена кондиционера - цена:</h3>
-                <ul class="third-list">
+                <ul class="third-list min">
                     <li>При установке на текущий фреонопровод учитывается демонтаж внутреннего и наружного блока с
                         сохранением хладагента, стоимость 5000 руб. + установка на готовую трассу 12000руб.
                     </li>
@@ -380,12 +392,17 @@
                 <div class="form-circle">
                     <img src="../assets/images/like.svg" alt="">
                 </div>
-                <div class="form-like__text">
+                <div class="form-like__text desk">
                     <span class="form-like__bid">Оставьте заявку </span>
                     <span class="form-like__desc">Наши менеджеры свяжутся с вами и ответят на вопросы  </span>
                 </div>
             </div>
+
             <form class="form-bid" action="">
+                <div class="form-like__text mob">
+                    <span class="form-like__bid">Оставьте заявку </span>
+                    <span class="form-like__desc">Наши менеджеры свяжутся с вами и ответят на вопросы  </span>
+                </div>
                 <div class="form-input">
                     <input type="text" placeholder="Ваше имя">
                     <input type="tel" placeholder="Телефон"></div>
@@ -399,29 +416,29 @@
         <ul class="footer-list">
             <li>
                 <ul>
-                    <li>О компании</li>
-                    <li>О нас</li>
-                    <li>Отзывы</li>
-                    <li>Сертификаты</li>
+                    <li><a href="../pages/about.html">О компании</a></li>
+                    <li><a href="../pages/about.html">О нас</a></li>
+                    <li><a href="../index.html">Отзывы</a></li>
+                    <li><a href="../index.html">Сертификаты</a></li>
                 </ul>
             </li>
             <li>
                 <ul>
-                    <li>Каталог</li>
-                    <li>Монтаж</li>
-                    <li>Гарантия</li>
-                    <li>Доставка и оплата</li>
+                    <li><a href="../pages/catalog.html">Каталог</a></li>
+                    <li><a href="../pages/installation.html">Монтаж</a></li>
+                    <li><a href="../pages/guarantee.html">Гарантия</a></li>
+                    <li><a href="../pages/delivery.html">Доставка и оплата</a></li>
                 </ul>
             </li>
             <li>
                 <ul>
                     <li class="footer-accent">Контакты</li>
-                    <li>+7 (812) - 401-51-00</li>
-                    <li>+7 (812) - 401-51-20</li>
-                    <li>pochta.23@mail.ru</li>
+                    <li><a href="tel:+7 (812) - 401-51-00">+7 (812) - 401-51-00</a></li>
+                    <li><a href="tel:+7 (812) - 401-51-20">+7 (812) - 401-51-20</a></li>
+                    <li><a href="mailto:pochta.23@mail.ru">pochta.23@mail.ru</a></li>
                 </ul>
             </li>
-            <li>
+            <li class="footer-desc">
                 <ul>
                     <li class="footer-accent">Адрес</li>
                     <li>Москва, улица Ленина 34 лит А</li>
@@ -432,12 +449,61 @@
                 </ul>
             </li>
         </ul>
+        <div class="footer-tablet">
+            <div>
+                <p class="footer-accent">Адрес</p>
+                <p>Москва, улица Ленина 34 лит А</p></div>
+            <div class="social">
+                <a class="social-links" href="">Whats App</a>
+                <a class="social-links" href="">Telegram</a>
+            </div>
+        </div>
     </div>
 </footer>
-<div class="container">
-    <div class="footer-bottom">
-        <span>©2024 Split-comfort. Все права защищены.</span>
-        <span>Политика конфиденциальности </span></div>
+<footer class="footer-mob">
+    <div class="container">
+        <ul class="footer-list">
+            <li>
+                <ul>
+                    <li><a href="../pages/about.html">О компании</a></li>
+                    <li><a href="../pages/about.html">О нас</a></li>
+                    <li><a href="../index.html">Отзывы</a></li>
+                    <li><a href="../index.html">Сертификаты</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li><a href="../pages/catalog.html">Каталог</a></li>
+                    <li><a href="../pages/installation.html">Монтаж</a></li>
+                    <li><a href="../pages/guarantee.html">Гарантия</a></li>
+                    <li><a href="../pages/delivery.html">Доставка и оплата</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="footer-address">
+            <p class="footer-accent">Адрес</p>
+            <p>Москва, улица Ленина 34 лит А</p>
+        </div>
+        <div class="footer-wrapper">
+            <ul class="footer-contacts">
+                <li class="footer-accent">Контакты</li>
+                <li><a href="tel:+7 (812) - 401-51-00">+7 (812) - 401-51-00</a></li>
+                <li><a href="tel:+7 (812) - 401-51-20">+7 (812) - 401-51-20</a></li>
+                <li><a href="mailto:pochta.23@mail.ru">pochta.23@mail.ru</a></li>
+            </ul>
+            <div class="social">
+                <a class="social-links" href="">Whats App</a>
+                <a class="social-links" href="">Telegram</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="container-bottom">
+    <div class="container">
+        <div class="footer-bottom">
+            <span>©2024 Split-comfort. Все права защищены.</span>
+            <span>Политика конфиденциальности </span></div>
+    </div>
 </div>
 </body>
 </html>
