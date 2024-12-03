@@ -557,8 +557,9 @@
 
     .main-circle {
         position: absolute;
-        top: 22px;
-        left: -142px;
+        width: 100%;
+        top: 145px;
+        left: -2px;
         z-index: 1;
     }
 
