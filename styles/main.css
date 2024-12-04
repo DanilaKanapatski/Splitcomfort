@@ -148,97 +148,7 @@
     color: var(--blue);
 }
 
-.catalog-items {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-}
 
-.catalog-items li {
-    max-width: 300px;
-    width: 100%;
-    border-radius: 15px;
-    box-shadow: 0 1px 10px 0 var(--gayBlue);
-    background: var(--white);
-    padding: 25px 20px 24px 20px;
-}
-
-.catalog-item {
-    padding: 0 5px;
-}
-
-.catalog-item__price {
-    display: inline-block;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 1.33333;
-    margin-top: 39px;
-    color: var(--orange);
-}
-
-.catalog-item__name {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.2;
-    margin-top: 25px;
-}
-
-.catalog-item__rating {
-    display: inline-block;
-    padding-left: 8px;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 1.21905;
-    font-family: "Futura PT Book", sans-serif;
-    color: var(--orange);
-}
-
-.catalog-item__review {
-    font-weight: 400;
-    font-size: 11px;
-    font-family: "Futura PT Book", sans-serif;
-    line-height: 1.28;
-    color: var(--devil);
-    padding-left: 5px;
-}
-
-.catalog-item__star {
-    margin-top: 14px;
-}
-
-.catalog-item-text {
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-    margin-top: 10px;
-}
-
-.catalog-item-desc {
-    display: flex;
-    justify-content: space-between;
-}
-
-.catalog-item-desc span:first-child {
-    font-weight: 400;
-    font-size: 11px;
-    font-family: "Futura PT Book", sans-serif;
-    line-height: 1.23871;
-    color: var(--devil);
-}
-
-.catalog-item-desc span:nth-child(2) {
-    font-weight: 400;
-    font-family: "Futura PT Book", sans-serif;
-    font-size: 12px;
-    line-height: 1.2;
-    color: var(--orange);
-}
-
-.catalog-item__link {
-    margin-top: 30px;
-    width: 100%;
-    padding: 12px 0;
-}
 
 /**/
 
@@ -413,55 +323,6 @@
         width: 140px;
     }
 
-    .desk {
-        display: none;
-    }
-
-    .catalog-items {
-        overflow: hidden;
-        gap: 30px;
-    }
-
-    .catalog-items li {
-
-        padding: 25px 20px 30px 20px;
-    }
-
-    .catalog-item {
-        padding: 0 5px;
-    }
-
-    .catalog-item__price {
-        line-height: 1;
-    }
-
-    .catalog-item__name {
-        line-height: 1;
-    }
-
-    .catalog-item__rating {
-        padding-left: 8px;
-        font-size: 12px;
-        line-height: 1;
-    }
-
-    .catalog-item__review {
-        font-size: 12px;
-        line-height: 1;
-        padding-left: 4px;
-    }
-
-    .catalog-item__star {
-        margin-top: 19px;
-    }
-
-    .catalog-item-text {
-        display: none;
-    }
-
-    .catalog-item__link {
-        margin-top: 20px;
-    }
 
     /**/
     .choice {
@@ -648,62 +509,6 @@
 
     .catalog-filter li:nth-child(5) {
         width: 130px;
-    }
-
-    .catalog-items {
-        margin-top: 30px;
-        gap: 10px;
-    }
-
-    .catalog-items li {
-        padding: 25px 20px 30px 20px;
-    }
-
-    .catalog-item {
-        padding: 0 5px;
-    }
-
-    .mob {
-        display: block;
-    }
-
-    .catalog-item__wrapper {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 35px;
-        align-items: center;
-    }
-
-    .catalog-item__price {
-        line-height: 1;
-        margin-top: 0;
-    }
-
-    .catalog-item__name {
-        line-height: 1;
-        margin-top: 10px;
-    }
-
-    .catalog-item__rating {
-        padding-left: 5px;
-        font-size: 12px;
-        line-height: 1;
-    }
-
-    .catalog-item__review {
-        font-size: 12px;
-        line-height: 1;
-        padding-left: 5px;
-    }
-
-    .catalog-item__star {
-        margin-top: 0;
-    }
-
-    .catalog-item__link {
-        margin-top: 20px;
-        width: 100%;
-        padding: 12px 0;
     }
 
     /**/

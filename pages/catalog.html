@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Title</title>
-  <link rel="stylesheet" href="../global.css">
-  <link rel="stylesheet" href="../form.css">
-  <link rel="stylesheet" href="../reviews.css">
-  <link rel="stylesheet" href="../main.css">
-  <link rel="stylesheet" href="../header.css">
-  <link rel="stylesheet" href="../footer.css">
+  <link rel="stylesheet" href="../styles/global.css">
+  <link rel="stylesheet" href="../styles/header.css">
+  <link rel="stylesheet" href="../styles/item.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+  <link rel="stylesheet" href="../styles/catalog.css">
 </head>
 <body>
 <header class="header">
@@ -27,7 +26,7 @@
         </div>
         <a class="header-info__link" href="">Whats App</a>
         <a class="header-info__link" href="">Telegram</a>
-        <a class="header-info__link" href="">Корзина</a>
+        <a class="header-info__link" href="../pages/basket.html">Корзина</a>
       </div>
     </div>
     <nav>
@@ -35,46 +34,412 @@
         <li>
           <button class="link header-catalog">Каталог товаров</button>
         </li>
-        <li><a href="about.html">О компании</a></li>
-        <li>Монтаж</li>
-        <li><a href="guarantee.html">Гарантия</a></li>
-        <li>Доставка и оплата</li>
-        <li>Контакты</li>
+        <li><a href="../pages/about.html">О компании</a></li>
+        <li><a href="../pages/installation.html">Монтаж</a></li>
+        <li><a href="../pages/guarantee.html">Гарантия</a></li>
+        <li><a href="../pages/delivery.html">Доставка и оплата</a></li>
+        <li><a href="../pages/contacts.html">Контакты</a></li>
       </ul>
     </nav>
   </div>
 </header>
 <main>
-  
+  <section class="catalog">
+    <div class="container">
+      <div class="first-filter__wrapper">
+        <h2 class="title">Сплит-системы</h2>
+        <ul class="first-filter">
+          <li>Популярные</li>
+          <li class="first-filter__active">По рейтингу</li>
+          <li>По названию</li>
+          <li>Недорогие</li>
+          <li>Дорогие</li>
+        </ul>
+      </div>
+      <div class="catalog-items__wrapper">
+        <aside>
+          <div class="second-filter__wrapper">
+            <h3 class="second-filter__title">Сплит-системы</h3>
+            <ul class="second-filter">
+              <li>Haier</li>
+              <li>Energolux</li>
+              <li>LG</li>
+              <li>Funai</li>
+              <li>Funai</li>
+              <li>Hisense</li>
+              <li class="second-filter__active">Royal Clima</li>
+              <li>Daikin</li>
+              <li>Ferrum</li>
+              <li>Gree</li>
+              <li>Ballu</li>
+              <li>Electrolux</li>
+          </div>
+          </ul>
+        </aside>
+        <ul class="catalog-items">
+          <li class="desk">
+            <img src="../assets/images/conditioner.png" alt="">
+            <div class="catalog-item">
+              <span class="catalog-item__price">58 190 ₽</span>
+              <p class="catalog-item__name">Royal Clima RC-VX55HN (сплит-
+                система)</p>
+              <div class="catalog-item__star">
+                <img src="../assets/images/star.svg" alt="">
+                <span class="catalog-item__rating">4.9</span>
+                <span class="catalog-item__review">107 отзывов</span>
+              </div>
+              <div class="catalog-item-text">
+                <div class="catalog-item-desc">
+            <span>
+              Площадь помещения, м2:
+            </span>
+                  <span>
+            55
+          </span>
+                </div>
+                <div class="catalog-item-desc">
+            <span>
+              Инверторный компрессор:
+            </span>
+                  <span>
+              Нет
+            </span>
+                </div>
+                <div class="catalog-item-desc">
+            <span>
+              Мощность при охлаждении, кВт:
+            </span>
+                  <span>
+              5.4
+            </span>
+                </div>
+              </div>
+              <a href="" class="link catalog-item__link">Добавить в корзину</a></div>
+          </li>
+          <li class="desk">
+            <img src="../assets/images/conditioner.png" alt="">
+            <div class="catalog-item">
+              <span class="catalog-item__price">58 190 ₽</span>
+              <p class="catalog-item__name">Royal Clima RC-VX55HN (сплит-
+                система)</p>
+              <div class="catalog-item__star">
+                <img src="../assets/images/star.svg" alt="">
+                <span class="catalog-item__rating">4.9</span>
+                <span class="catalog-item__review">107 отзывов</span>
+              </div>
+              <div class="catalog-item-text">
+                <div class="catalog-item-desc">
+            <span>
+              Площадь помещения, м2:
+            </span>
+                  <span>
+            55
+          </span>
+                </div>
+                <div class="catalog-item-desc">
+            <span>
+              Инверторный компрессор:
+            </span>
+                  <span>
+              Нет
+            </span>
+                </div>
+                <div class="catalog-item-desc">
+            <span>
+              Мощность при охлаждении, кВт:
+            </span>
+                  <span>
+              5.4
+            </span>
+                </div>
+              </div>
+              <a href="" class="link catalog-item__link">Добавить в корзину</a></div>
+          </li>
+          <li class="desk">
+            <img src="../assets/images/conditioner.png" alt="">
+            <div class="catalog-item">
+              <span class="catalog-item__price">58 190 ₽</span>
+              <p class="catalog-item__name">Royal Clima RC-VX55HN (сплит-
+                система)</p>
+              <div class="catalog-item__star">
+                <img src="../assets/images/star.svg" alt="">
+                <span class="catalog-item__rating">4.9</span>
+                <span class="catalog-item__review">107 отзывов</span>
+              </div>
+              <div class="catalog-item-text">
+                <div class="catalog-item-desc">
+            <span>
+              Площадь помещения, м2:
+            </span>
+                  <span>
+            55
+          </span>
+                </div>
+                <div class="catalog-item-desc">
+            <span>
+              Инверторный компрессор:
+            </span>
+                  <span>
+              Нет
+            </span>
+                </div>
+                <div class="catalog-item-desc">
+            <span>
+              Мощность при охлаждении, кВт:
+            </span>
+                  <span>
+              5.4
+            </span>
+                </div>
+              </div>
+              <a href="" class="link catalog-item__link">Добавить в корзину</a></div>
+          </li>
+          <li class="desk">
+            <img src="../assets/images/conditioner.png" alt="">
+            <div class="catalog-item">
+              <span class="catalog-item__price">58 190 ₽</span>
+              <p class="catalog-item__name">Royal Clima RC-VX55HN (сплит-
+                система)</p>
+              <div class="catalog-item__star">
+                <img src="../assets/images/star.svg" alt="">
+                <span class="catalog-item__rating">4.9</span>
+                <span class="catalog-item__review">107 отзывов</span>
+              </div>
+              <div class="catalog-item-text">
+                <div class="catalog-item-desc">
+            <span>
+              Площадь помещения, м2:
+            </span>
+                  <span>
+            55
+          </span>
+                </div>
+                <div class="catalog-item-desc">
+            <span>
+              Инверторный компрессор:
+            </span>
+                  <span>
+              Нет
+            </span>
+                </div>
+                <div class="catalog-item-desc">
+            <span>
+              Мощность при охлаждении, кВт:
+            </span>
+                  <span>
+              5.4
+            </span>
+                </div>
+              </div>
+              <a href="" class="link catalog-item__link">Добавить в корзину</a></div>
+          </li>
+          <li class="desk">
+            <img src="../assets/images/conditioner.png" alt="">
+            <div class="catalog-item">
+              <span class="catalog-item__price">58 190 ₽</span>
+              <p class="catalog-item__name">Royal Clima RC-VX55HN (сплит-
+                система)</p>
+              <div class="catalog-item__star">
+                <img src="../assets/images/star.svg" alt="">
+                <span class="catalog-item__rating">4.9</span>
+                <span class="catalog-item__review">107 отзывов</span>
+              </div>
+              <div class="catalog-item-text">
+                <div class="catalog-item-desc">
+            <span>
+              Площадь помещения, м2:
+            </span>
+                  <span>
+            55
+          </span>
+                </div>
+                <div class="catalog-item-desc">
+            <span>
+              Инверторный компрессор:
+            </span>
+                  <span>
+              Нет
+            </span>
+                </div>
+                <div class="catalog-item-desc">
+            <span>
+              Мощность при охлаждении, кВт:
+            </span>
+                  <span>
+              5.4
+            </span>
+                </div>
+              </div>
+              <a href="" class="link catalog-item__link">Добавить в корзину</a></div>
+          </li>
+          <li class="desk">
+            <img src="../assets/images/conditioner.png" alt="">
+            <div class="catalog-item">
+              <span class="catalog-item__price">58 190 ₽</span>
+              <p class="catalog-item__name">Royal Clima RC-VX55HN (сплит-
+                система)</p>
+              <div class="catalog-item__star">
+                <img src="../assets/images/star.svg" alt="">
+                <span class="catalog-item__rating">4.9</span>
+                <span class="catalog-item__review">107 отзывов</span>
+              </div>
+              <div class="catalog-item-text">
+                <div class="catalog-item-desc">
+            <span>
+              Площадь помещения, м2:
+            </span>
+                  <span>
+            55
+          </span>
+                </div>
+                <div class="catalog-item-desc">
+            <span>
+              Инверторный компрессор:
+            </span>
+                  <span>
+              Нет
+            </span>
+                </div>
+                <div class="catalog-item-desc">
+            <span>
+              Мощность при охлаждении, кВт:
+            </span>
+                  <span>
+              5.4
+            </span>
+                </div>
+              </div>
+              <a href="" class="link catalog-item__link">Добавить в корзину</a></div>
+          </li>
+          <li class="mob">
+            <img src="../assets/images/conditioner.png" alt="">
+            <div class="catalog-item">
+              <div class="catalog-item__wrapper">
+                <span class="catalog-item__price">58 190 ₽</span>
+                <div class="catalog-item__star">
+                  <img src="../assets/images/star.svg" alt="">
+                  <span class="catalog-item__rating">4.9</span>
+                  <span class="catalog-item__review">107 отзывов</span>
+                </div>
+              </div>
+              <p class="catalog-item__name">Royal Clima RC-VX55HN (сплит-
+                система)</p>
+
+              <a href="" class="link catalog-item__link">Добавить в корзину</a></div>
+          </li>
+          <li class="mob">
+            <img src="../assets/images/conditioner.png" alt="">
+            <div class="catalog-item">
+              <div class="catalog-item__wrapper">
+                <span class="catalog-item__price">58 190 ₽</span>
+                <div class="catalog-item__star">
+                  <img src="../assets/images/star.svg" alt="">
+                  <span class="catalog-item__rating">4.9</span>
+                  <span class="catalog-item__review">107 отзывов</span>
+                </div>
+              </div>
+              <p class="catalog-item__name">Royal Clima RC-VX55HN (сплит-
+                система)</p>
+
+              <a href="" class="link catalog-item__link">Добавить в корзину</a></div>
+          </li>
+          <li class="mob">
+            <img src="../assets/images/conditioner.png" alt="">
+            <div class="catalog-item">
+              <div class="catalog-item__wrapper">
+                <span class="catalog-item__price">58 190 ₽</span>
+                <div class="catalog-item__star">
+                  <img src="../assets/images/star.svg" alt="">
+                  <span class="catalog-item__rating">4.9</span>
+                  <span class="catalog-item__review">107 отзывов</span>
+                </div>
+              </div>
+              <p class="catalog-item__name">Royal Clima RC-VX55HN (сплит-
+                система)</p>
+
+              <a href="" class="link catalog-item__link">Добавить в корзину</a></div>
+          </li>
+          <li class="mob">
+            <img src="../assets/images/conditioner.png" alt="">
+            <div class="catalog-item">
+              <div class="catalog-item__wrapper">
+                <span class="catalog-item__price">58 190 ₽</span>
+                <div class="catalog-item__star">
+                  <img src="../assets/images/star.svg" alt="">
+                  <span class="catalog-item__rating">4.9</span>
+                  <span class="catalog-item__review">107 отзывов</span>
+                </div>
+              </div>
+              <p class="catalog-item__name">Royal Clima RC-VX55HN (сплит-
+                система)</p>
+
+              <a href="" class="link catalog-item__link">Добавить в корзину</a></div>
+          </li>
+          <li class="mob">
+            <img src="../assets/images/conditioner.png" alt="">
+            <div class="catalog-item">
+              <div class="catalog-item__wrapper">
+                <span class="catalog-item__price">58 190 ₽</span>
+                <div class="catalog-item__star">
+                  <img src="../assets/images/star.svg" alt="">
+                  <span class="catalog-item__rating">4.9</span>
+                  <span class="catalog-item__review">107 отзывов</span>
+                </div>
+              </div>
+              <p class="catalog-item__name">Royal Clima RC-VX55HN (сплит-
+                система)</p>
+
+              <a href="" class="link catalog-item__link">Добавить в корзину</a></div>
+          </li>
+          <li class="mob">
+            <img src="../assets/images/conditioner.png" alt="">
+            <div class="catalog-item">
+              <div class="catalog-item__wrapper">
+                <span class="catalog-item__price">58 190 ₽</span>
+                <div class="catalog-item__star">
+                  <img src="../assets/images/star.svg" alt="">
+                  <span class="catalog-item__rating">4.9</span>
+                  <span class="catalog-item__review">107 отзывов</span>
+                </div>
+              </div>
+              <p class="catalog-item__name">Royal Clima RC-VX55HN (сплит-
+                система)</p>
+
+              <a href="" class="link catalog-item__link">Добавить в корзину</a></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </main>
 <footer class="footer">
   <div class="container">
     <ul class="footer-list">
       <li>
         <ul>
-          <li>О компании</li>
-          <li>О нас</li>
-          <li>Отзывы</li>
-          <li>Сертификаты</li>
+          <li><a href="../pages/about.html">О компании</a></li>
+          <li><a href="../pages/about.html">О нас</a></li>
+          <li><a href="../index.html">Отзывы</a></li>
+          <li><a href="../index.html">Сертификаты</a></li>
         </ul>
       </li>
       <li>
         <ul>
-          <li>Каталог</li>
-          <li>Монтаж</li>
-          <li>Гарантия</li>
-          <li>Доставка и оплата</li>
+          <li><a href="../pages/catalog.html">Каталог</a></li>
+          <li><a href="../pages/installation.html">Монтаж</a></li>
+          <li><a href="../pages/guarantee.html">Гарантия</a></li>
+          <li><a href="../pages/delivery.html">Доставка и оплата</a></li>
         </ul>
       </li>
       <li>
         <ul>
           <li class="footer-accent">Контакты</li>
-          <li>+7 (812) - 401-51-00</li>
-          <li>+7 (812) - 401-51-20</li>
-          <li>pochta.23@mail.ru</li>
+          <li><a href="tel:+7 (812) - 401-51-00">+7 (812) - 401-51-00</a></li>
+          <li><a href="tel:+7 (812) - 401-51-20">+7 (812) - 401-51-20</a></li>
+          <li><a href="mailto:pochta.23@mail.ru">pochta.23@mail.ru</a></li>
         </ul>
       </li>
-      <li>
+      <li class="footer-desc">
         <ul>
           <li class="footer-accent">Адрес</li>
           <li>Москва, улица Ленина 34 лит А</li>
@@ -85,13 +450,61 @@
         </ul>
       </li>
     </ul>
+    <div class="footer-tablet">
+      <div>
+        <p class="footer-accent">Адрес</p>
+        <p>Москва, улица Ленина 34 лит А</p></div>
+      <div class="social">
+        <a class="social-links" href="">Whats App</a>
+        <a class="social-links" href="">Telegram</a>
+      </div>
+    </div>
   </div>
 </footer>
-<div class="container">
-  <div class="footer-bottom">
-    <span>©2024 Split-comfort. Все права защищены.</span>
-    <span>Политика конфиденциальности </span></div>
+<footer class="footer-mob">
+  <div class="container">
+    <ul class="footer-list">
+      <li>
+        <ul>
+          <li><a href="../pages/about.html">О компании</a></li>
+          <li><a href="../pages/about.html">О нас</a></li>
+          <li><a href="../index.html">Отзывы</a></li>
+          <li><a href="../index.html">Сертификаты</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><a href="../pages/catalog.html">Каталог</a></li>
+          <li><a href="../pages/installation.html">Монтаж</a></li>
+          <li><a href="../pages/guarantee.html">Гарантия</a></li>
+          <li><a href="../pages/delivery.html">Доставка и оплата</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="footer-address">
+      <p class="footer-accent">Адрес</p>
+      <p>Москва, улица Ленина 34 лит А</p>
+    </div>
+    <div class="footer-wrapper">
+      <ul class="footer-contacts">
+        <li class="footer-accent">Контакты</li>
+        <li><a href="tel:+7 (812) - 401-51-00">+7 (812) - 401-51-00</a></li>
+        <li><a href="tel:+7 (812) - 401-51-20">+7 (812) - 401-51-20</a></li>
+        <li><a href="mailto:pochta.23@mail.ru">pochta.23@mail.ru</a></li>
+      </ul>
+      <div class="social">
+        <a class="social-links" href="">Whats App</a>
+        <a class="social-links" href="">Telegram</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="container-bottom">
+  <div class="container">
+    <div class="footer-bottom">
+      <span>©2024 Split-comfort. Все права защищены.</span>
+      <span>Политика конфиденциальности </span></div>
+  </div>
 </div>
-<script src="../script.js"></script>
 </body>
 </html>
